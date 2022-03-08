@@ -1,0 +1,99 @@
+
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+
+}
+
+.brand {
+  position: absolute;
+  left:43%;
+  margin-right: 100px ;
+   /* 50% of your logo width */
+  
+}
+
+
+.nav-link{
+  font-family: 'couturebold';
+  color: #000000;
+}
+
+a{color: #000000;}
+
+
+@font-face {
+  font-family: 'couturebold';
+  src: url('couture-bld1-webfont.woff2') format('woff2'),
+       url('couture-bld1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.tainer{
+  width: 100%;
+ 
+  
+}
+
+
+.beatsale{
+  font-family: 'couturebold';
+  font-size: 100%;
+  
+  
+}
+
+
+
+
+
+.flexcont{
+  display: flex;
+  background-color: antiquewhite;
+  border-color: rgb(132, 106, 73);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  margin-left: 12%;
+  margin-right: 12%;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.flexcont:hover{
+  box-shadow: 0 20px 20px rgba(148, 148, 148, 0.4);
+  transform: scale(105%);
+  transition: 50ms;
+}
+
+.box1{
+
+color: rgb(0, 0, 0);
+padding-left: 3%;
+padding-right: 3%;
+
+}
+
+
+.box2{
+ 
+  padding-left: 4%;
+  padding-right: 2%;
+  
+  
+  }
+ 
+
+  h1{
+    font-family: 'couturebold';
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  audio::-webkit-media-controls-panel {
+    background-color: antiquewhite;
+  }

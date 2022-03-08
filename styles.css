@@ -1,0 +1,318 @@
+
+
+.navbardbd{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  height: 50px;
+}
+
+.brand {
+  display:flex;
+  justify-content:center;
+}
+
+.loggy{
+    background-image: url(whitelogobig.gif);
+    background-position:center;
+   
+    height: 100vh;
+    background-repeat:no-repeat;
+}
+
+.nav-link{
+  font-family: 'couturebold';
+  color: #000000;
+}
+
+a{color: #000000;}
+
+
+@font-face {
+  font-family: 'couturebold';
+  src: url('couture-bld1-webfont.woff2') format('woff2'),
+       url('couture-bld1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+#webpage {
+    position: center;
+    width: 96%;
+    height: 84%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#dbd{
+  color:blueviolet;
+  float: none;
+  font-family: "couturebold";
+}
+
+.grid{
+
+    display: grid;
+    padding: 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:10px;
+    row-gap: 10px;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+  
+}
+
+
+
+.tainer{
+  width: 100%;
+ 
+  
+}
+
+
+.beatsale{
+  font-family: 'couturebold';
+  font-size: 100%;
+  
+  
+}
+
+
+
+
+
+.flexcont{
+  display: flex;
+  background-color: antiquewhite;
+  border-color: rgb(132, 106, 73);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  margin-left: 12%;
+  margin-right: 12%;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.flexcont:hover{
+  box-shadow: 0 20px 20px rgba(148, 148, 148, 0.4);
+  transform: scale(105%);
+  transition: 50ms;
+}
+
+.box1{
+
+color: rgb(0, 0, 0);
+padding-left: 3%;
+padding-right: 3%;
+
+}
+
+
+.box2{
+    
+  padding-left: 4%;
+  padding-right: 2%;
+  
+  
+  }
+ 
+
+  h1{
+    font-family: 'couturebold';
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  audio::-webkit-media-controls-panel {
+    background-color: antiquewhite;
+  }
+
+
+.item1{
+
+justify-content: center;
+font-family: 'couturebold';
+align-items: center;
+vertical-align: center;
+border-radius: 30px;
+font-size: 3em;
+grid-row: 1;
+grid-column: 1/2;
+color:transparent;
+background-image: url("akai2.jpg");
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
+.item1:hover{
+background-image: url("IMG_6557 (2).jpg");
+background-color: black;
+
+color:wheat;
+}
+
+
+
+
+.item2 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 3em;
+    grid-row: 1;
+    grid-column: 2/3;
+    color: wheat;
+    font-family: 'couturebold';
+}
+
+
+.item3 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 3em;
+    grid-row: 1;
+    grid-column: 3/4;
+    color: wheat;
+    font-family: 'couturebold';
+}
+  
+  
+ 
+
+  .objects{
+    
+    
+
+    
+      
+      
+  }
+
+  
+ 
+
+ body{ 
+  height:100%;
+  background-color:black;
+  
+  
+
+  
+ }
+
+
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+    
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 100%;
+    max-height: 120px;
+    font-size: 250%;
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: couturebold;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    letter-spacing: 40px;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: white;
+    
+  }
+
+  .hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(229, 233, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 2000px rgb(234, 238, 0);
+  }
+
+
+
+
+  /* Shutter Out Horizontal */
+.hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    
+    position: relative;
+    background: #a419bd;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    color: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: rgb(132, 2, 193);
+  }
+  .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
