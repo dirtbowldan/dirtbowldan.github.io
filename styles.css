@@ -27,6 +27,33 @@
     background-repeat:no-repeat;
 }
 
+.butty{
+  background-color: rgb(165, 149, 119); /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 99%;
+  font-family: 'days';
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 20px;
+  
+  
+
+}
+
+
+.butty:hover{
+background-color: #000000;
+color:#ae83b9;
+transition: .3s;
+
+
+}
+
+
 .nav-link{
   font-family: 'couturebold';
   color: #000000;
@@ -52,6 +79,7 @@ a{color: #000000;}
   font-style: normal;
 
 }
+
 
 
 
@@ -128,6 +156,7 @@ a{color: #000000;}
   margin-left: 4%;
   margin-right: 4%;
   align-items: center;
+  justify-content: space-evenly;
   margin-top: 1%;
 }
 
@@ -140,18 +169,20 @@ a{color: #000000;}
 .box1{
 
 color: rgb(0, 0, 0);
-padding-left: 3%;
-padding-right: 3%;
+
 
 }
 
 
 .box2{
     
-  padding-left: 4%;
-  padding-right: 2%;
+ 
   
   
+  }
+
+  .box3{
+   
   }
  
 
