@@ -7,8 +7,8 @@
   border-radius: 10px;
   -webkit-filter: url("#goo");
           filter: url("#goo");
-  -webkit-transition: .4s;
-  transition: border .5s;
+  -webkit-transition: 5s;
+  transition: all .5s, background-image 0s, color .7s;
   
   
 }
