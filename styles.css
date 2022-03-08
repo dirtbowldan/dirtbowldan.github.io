@@ -83,6 +83,15 @@ a{color: #000000;}
 }
 
 
+@font-face {
+  font-family: 'chill';
+  src: url('LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 
 
 #webpage {
@@ -139,12 +148,11 @@ a{color: #000000;}
 
 
 .beatsale{
-  font-family: 'couturebold';
+  font-family: 'chill';
   text-align: center;
-  vertical-align: middle;
-  padding-top:14px;
-  padding-bottom:14px;
-  font-size: 105%;
+  
+  padding: 12px;
+  font-size: 140%;
   letter-spacing: 3px;
 }
 
@@ -152,8 +160,8 @@ a{color: #000000;}
 
 .labels{
   display: flex;
-  
-  margin-top: 10px;
+  font-family: 'chill';
+  margin-top: 20px;
   margin-left: 4%;
   margin-right: 4%;
   align-items:center
@@ -171,8 +179,8 @@ a{color: #000000;}
   margin-left: 4%;
   margin-right: 4%;
   align-items: center;
-  height: 70px;
-  
+  height: 65px;
+  margin-bottom: 1%;
   
 }
 
@@ -185,9 +193,10 @@ a{color: #000000;}
 .bname{
 color: rgb(0, 0, 0);
 border-right: 1px solid rgba(34, 34, 34, 0.418);
-      border-radius: 10px;
-      box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
-height: 102%;
+border-radius: 10px;
+box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
+
+
 width: 20%;
 
 }
@@ -205,8 +214,7 @@ width: 20%;
   border-right: 1px solid rgba(34, 34, 34, 0.418);
       border-radius: 10px;
       box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
-  height: 102%;
-
+  
   width: 30%;
   }
 
@@ -218,7 +226,7 @@ width: 20%;
     border-right: 1px solid rgba(34, 34, 34, 0.418);
       border-radius: 10px;
       box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
-    height: 102%;
+    
     width: 9%;
     
     }
@@ -231,12 +239,12 @@ width: 20%;
     
     .bkey{
       color: rgb(0, 0, 0);
-     
+      
       border-right: 1px solid rgba(34, 34, 34, 0.418);
       border-radius: 10px;
       box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
-    height: 102%;
-    width: 5%;
+
+    width: 7%;
     
       }
 
@@ -252,8 +260,8 @@ width: 20%;
     border-right: 1px solid;
     border-radius: 10px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.24);
-    width: 28%;
-    padding-left: 5px;
+    width: 26%;
+    padding-left: 15px;
     height: 100%;
     
         }
