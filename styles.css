@@ -293,7 +293,7 @@ width: 20%;
 .item1{
 
 justify-content: center;
-font-family: 'couturebold';
+font-family: 'days';
 align-items: center;
 vertical-align: center;
 padding-top: 50%;
@@ -325,9 +325,21 @@ color:wheat;
     font-size: 3em;
     grid-row: 1;
     grid-column: 2/3;
-    color: wheat;
-    font-family: 'couturebold';
+    color:rgba(228, 85, 247, 0.404);
+    background-image:url("dbd-base3.png") ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'days';
+    vertical-align: center;
+    padding-top: 50%;
 }
+
+.item2:hover{
+  background-image: url("IMG_6594 (2).jpg");
+  background-color: black;
+  color: wheat;
+  }
 
 
 .item3 {
@@ -337,12 +349,22 @@ color:wheat;
     font-size: 3em;
     grid-row: 1;
     grid-column: 3/4;
-    color: wheat;
-    font-family: 'couturebold';
+    color: rgba(245, 222, 179, 0.425);
+    font-family: 'days';
+    vertical-align: center;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("IMG_6571.jpg");
 }
   
   
- 
+.item3:hover{
+  background-image: url("IMG_6599.jpg");
+  background-color: black;
+  color: wheat;
+  }
 
   
   
