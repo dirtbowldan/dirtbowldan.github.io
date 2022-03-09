@@ -90,7 +90,21 @@ a{color: #000000;}
   font-style: normal;
 
 }
+@font-face {
+  font-family: 'race';
+  src: url('RacingSansOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 
+}
+
+@font-face {
+  font-family: 'chill2';
+  src: url('AzeretMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
 
@@ -148,7 +162,7 @@ a{color: #000000;}
 
 
 .beatsale{
-  font-family: 'chill';
+  font-family: 'days';
   text-align: center;
   
   padding: 12px;
