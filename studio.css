@@ -1,0 +1,32 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: 'couturebold';
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.book{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+label{margin-top: 10px;}
+
+button{
+    margin-top: 20px;
+    padding: 5%;   
+    transition: .3s;
+    font-family: 'couturebold';
+}
+
+button:hover{
+    background-color: rgb(6, 53, 0);
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
